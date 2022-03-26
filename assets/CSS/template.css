@@ -60,8 +60,32 @@ nav a:hover {
 }
 
 #banner {
+    display: flex;
+    justify-content: center;
     background-image:url(../images/img1.jpg);
     background-position: center;
     background-size: cover;
     height: 900px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+.banner_options {
+    
+    height: 210px;
 }
