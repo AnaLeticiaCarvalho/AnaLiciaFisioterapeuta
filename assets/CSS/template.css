@@ -172,12 +172,20 @@ nav a:hover {
 
 .widget-title {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+}
+
+.widget-title-text {
     color: #000;
     font-size: 21px;
     font-weight: bold;
     border-bottom: 3px 60px solid #0079c7 ;
     text-align: center;
     padding: 10px;
-    
+    text-decoration: underline;
+}
+
+article .news-thumbnail img {
+    width: 100%;
+    height: auto;
 }
