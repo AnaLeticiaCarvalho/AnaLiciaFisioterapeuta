@@ -225,19 +225,25 @@ article .news-resume {
     margin-bottom: 30px;
 }
 
+.container-2 {
+    display: inline-flex;
+    
+}
 footer {
     background-color: #191970;
     display: flex;
-    justify-content: center;
     height: 200px;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
+.footer-1 {
+    margin-left: 80px;
+    margin-top: 10px;
+}
 .logo-footer img {
     width: 150px;
     height: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+   
 }
 
 .logo-text {
@@ -248,13 +254,14 @@ footer {
 .form {
     display: flex;
     flex-direction: column;
+    margin-left: 400px;
 
 }
 
 .form-text {
     font-size: 22px;
     color: #fff;
-    margin-bottom: 10px;
+    
 }
 
 .form input {
@@ -302,9 +309,7 @@ footer {
         flex-direction: column;
     }
 
-    .container {
-        flex-direction: column;
-    }
+    
 
     #geral section {
         padding: 20px;
@@ -314,7 +319,7 @@ footer {
     .container-2 {
         display: inline-flex;
         
-        padding: 0;
+        padding: 30px;
     }
 
     .container-2 .form .form-text {
