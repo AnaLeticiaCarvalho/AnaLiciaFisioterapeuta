@@ -320,41 +320,57 @@ footer {
         padding: 20px;
     }
 
+    footer {
+        padding: 30px;
+        height: 300px;
+
+    }
+
 
     
     .container-2 {
-        display: inline-flex;
-       width: 600px;
-        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+        
+     
     }
 
     .container-2 .form {
-        margin-left: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        width: 210px;
     }
 
-    .container-2 .form .form-text {
-
-        font-size: 11px;
-        
-
+    .container-2 .form-text {
+        font-size: 13px;
     }
 
-    .container-2 .form form {
+    .container-2 input {
         width: 200px;
-        height: 100px;
-        
-        
+        height: 30px;
     }
 
-    .container-2 .form input {
-        margin-right: 20px;
+    .container-2 button {
+        width: 210px;
+        height: 30px;
+    
     }
+        
+
 
     .container-2 .footer-1 {
 
-        width: 200px;
-        height: 200px;
-        margin-left: 5px;
+        width: 150px;
+        height: 100px;
+        margin: 0;
+        padding: 0px;
+        margin-left: 225px;
+        margin-right: 225px;
+        
+       
        
     }
     .container-2 .footer-1 .logo-footer {
@@ -368,6 +384,10 @@ footer {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
     }
 
     header {
