@@ -225,6 +225,25 @@ article .news-resume {
     margin-bottom: 30px;
 }
 
+aside {
+   
+    min-width: 150px;
+    margin-right: 20px;
+    
+}
+
+article .article-title {
+    font-size: 12px;
+    color: #5c5c5c;
+}
+article .article-thumbnail img {
+    width: 150px;
+    height: 100px;
+   margin-top: 60px;
+   
+}
+
+
 .container-2 {
     display: inline-flex;
     
